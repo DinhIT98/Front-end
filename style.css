@@ -1,0 +1,65 @@
+.nav1{
+    list-style-type: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+}
+.nav1 li{
+    float: left;
+   
+}
+li a{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+li a:hover{
+    background-color: #111;
+}
+.active{
+    background-color: red;
+}
+.nav2{
+
+    list-style-type: none;
+    background-color: #333;
+    overflow:auto;
+    padding: 0;
+    margin: 15px 0;
+    width: 25%;
+    position: fixed;
+
+
+    
+}
+.nav2 li a{
+    display: block;
+    text-align: left;
+}
+.nav2 li a:hover:not(.active){
+    background-color:#555;
+    color:white;
+
+}
+.demo{
+    /* outline: red solid 4px; */
+    border: 10px solid green;
+    margin-left: 25%;
+    margin-top: 15px;
+    /* width: 75%; */
+    /* float: right; */
+}
+li a.active{
+    background-color: #4CAF50;
+    color:white;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+}
