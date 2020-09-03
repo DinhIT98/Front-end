@@ -40,3 +40,7 @@ body{
 .dropdown .btn_dropdown:hover{
     background-color: #3e8e41;
 }
+.desc{
+    text-align: center;
+    padding:15px;
+}
