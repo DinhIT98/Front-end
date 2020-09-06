@@ -1,13 +1,15 @@
 body{
     margin:0;
     padding:0;
+}
+*{
     box-sizing: border-box;
 }
 div.gallery{
-    margin:5px;
+    padding: 0px 6px;
     border:1px solid red;
     float:left;
-    width:180px;
+    width:24.9999%;
 }
 div.gallery:hover{
     border:1px solid #777;
@@ -15,4 +17,16 @@ div.gallery:hover{
 div.gallery img{
     width: 100%;
     height: auto;
+}
+
+@media only screen and (max-width: 700px){
+    div.gallery{
+        width: 49.9999%;
+        padding:6px 0;
+    }
+}
+@media only screen and (max-width:500px){
+    div.gallery{
+        width:100%;
+    }
 }
